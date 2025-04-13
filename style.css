@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    background: url("assets/background.png") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.overlay {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 8px;
+}
+h1 {
+    font-size: 3em;
+    letter-spacing: 4px;
+}
+p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+.enter-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+.enter-btn:hover {
+    background: white;
+    color: black;
+}
